@@ -4,11 +4,10 @@
 [![Total Downloads](https://img.shields.io/github/downloads/tgmaurer/GradeMaster/total)](https://github.com/tgmaurer/GradeMaster/releases "Total Downloads")
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-<!--[![Release Version Badge](https://img.shields.io/github/v/release/tgrant06/GradeMaster)](https://github.com/tgrant06/GradeMaster/releases)
-[![Downloads@latest](https://img.shields.io/github/downloads/tgrant06/GradeMaster/latest/total)](https://github.com/tgrant06/GradeMaster/releases/latest)
-[![Total Downloads](https://img.shields.io/github/downloads/tgrant06/GradeMaster/total)](https://github.com/tgrant06/GradeMaster/releases)-->
-
 ![GradeMaster Logo](Images/logo.png)
+
+> [!IMPORTANT]
+> **This repository is archived.** GradeMaster is no longer maintained: no new releases, bug fixes, or dependency updates will be made, and issues and pull requests are closed to new submissions. The existing releases remain available for download and continue to work as-is. See [Apple platforms](#apple-platforms) below for the actively maintained macOS counterpart.
 
 ## About
 
@@ -204,31 +203,14 @@ GradeMaster is free to use, as of this moment.
 
 ### Development State
 
-GradeMaster is feature complete and not under active development.  
-The project receives limited, as-needed maintenance focused on stability, critical fixes, and essential dependency updates.  
-New releases are published only when necessary.
-
-**Note:** GradeMaster releases are not tied to .NET runtime updates.
-
-> [!IMPORTANT]
-> GradeMaster version 3.3.2 is presumably the last .NET 10 based release, until a new .NET version like 11 comes out, featuring prebuilt and signed binaries.
-> Version 3.3.2 of the app is framework dependent and will not require regular updates.
- If the newest version is still desired, [building from source](#manual-installation-with-local-build-build-from-source-easyadvanced) is recommended.
+GradeMaster is feature complete and archived. It is no longer under development, and no further releases, fixes, or dependency updates will be published.
 
 ### Project Status and Future Plans
 
-GradeMaster is feature complete. No new features are planned.
-
-The application is maintained on a limited, as-needed basis. Future updates, if any, will focus on:
-
-- Critical bug fixes
-- Essential dependency or security updates
-- Major platform or framework changes (e.g., a new .NET version)
-
-There is no fixed release schedule.
+GradeMaster is archived. No new features, fixes, or releases are planned, and issues and pull requests are closed to new submissions.
 
 > **Note for users:**  
-> GradeMaster is considered stable in its current form. If it meets your needs today, it is expected to continue working as-is.
+> GradeMaster is considered stable in its current form. The existing releases are expected to keep working as-is, but will not receive further updates. If you need an actively maintained alternative on macOS, see [Scade](https://github.com/tgmaurer/Scade).
 
 ### Supported Platforms
 
@@ -246,11 +228,9 @@ There is no fixed release schedule.
 - You also have to make sure you have the [WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2) installed on your System.
 - The [WebView2](https://developer.microsoft.com/en-us/microsoft-edge/webview2) should already be pre installed on all Windows 11 and most Windows 10 devices.
 
-#### The Desktop GUI Client is currently limited to Windows only
+#### The Desktop GUI Client is limited to Windows only
 
 - Windows versions that are supported and work (tested): Windows 11, 10
-
-Other platforms might get Support in the future.
 
 For macOS there is [Scade](https://github.com/tgmaurer/Scade), a separate native app and not a build of this one. See [Apple platforms](#apple-platforms).
 
@@ -266,10 +246,6 @@ For macOS there is [Scade](https://github.com/tgmaurer/Scade), a separate native
 
 - Swiss
 
-<!--### Console Client
-
-The Console Client is only for testing purposes.-->
-
 ## License
 
 This project is licensed under the GNU General Public License v3.0 (GPLv3). See the [LICENSE](LICENSE.txt) file for the full license text.
@@ -279,5 +255,3 @@ This project is licensed under the GNU General Public License v3.0 (GPLv3). See 
 ## Disclaimer
 
 THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-<!--Maybe add more disclaimers TBD-->
