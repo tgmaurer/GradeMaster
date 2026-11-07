@@ -7,7 +7,7 @@
 ![GradeMaster Logo](Images/logo.png)
 
 > [!IMPORTANT]
-> **This repository is archived.** GradeMaster is no longer maintained: no new releases, bug fixes, or dependency updates will be made, and issues and pull requests are closed to new submissions. The existing releases remain available for download and continue to work as-is. See [Apple platforms](#apple-platforms) below for the actively maintained macOS counterpart.
+> **This repository is archived.** GradeMaster is no longer maintained: no new releases, bug fixes, or dependency updates will be made, and issues and pull requests are closed to new submissions. The existing releases remain available for download and continue to work as-is. See [Apple platforms](#apple-platforms) below for the macOS counterpart.
 
 ## About
 
